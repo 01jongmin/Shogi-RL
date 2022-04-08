@@ -42,6 +42,8 @@ with open(params_path, "rb") as f:
     # num_workers not needed since we are not training
     del config['num_workers']
     del config['num_gpus']
+#    if config['exploration_config']:
+#        del config['exploration_config']
 
 DQNAgent = DQNTrainer(env="shogi", config=config)
 DQNAgent.restore(checkpoint_path)
@@ -60,7 +62,7 @@ for agent in env.agent_iter():
             print(np.where(observation["action_mask"] == 1)[0])
             action = int(input("Action"))
         else:
-            policy = DQNAgent.get_policy(agent)
+            policy = DQNAgent.get_policy("shared_policy")
             batch_obs = {
                 'obs':{
                     'observation': torch.tensor(np.expand_dims(observation['observation'], 0), dtype=torch.float),

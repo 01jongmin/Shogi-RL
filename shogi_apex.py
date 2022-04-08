@@ -1,3 +1,4 @@
+from ray.rllib.agents.registry import get_agent_class
 from ray import tune
 from ray.tune.registry import register_env
 from ray.rllib.env.wrappers.pettingzoo_env import PettingZooEnv
@@ -7,8 +8,6 @@ from ray.rllib.models import ModelCatalog
 import torch
 from torch import nn
 import torch.nn.functional as F
-from ray.rllib.examples.policy.random_policy import RandomPolicy 
-from random_policy import RandomParametricPolicy
 
 from ray.rllib.agents.dqn.dqn_torch_model import DQNTorchModel
 from ray.rllib.models.torch.torch_modelv2 import TorchModelV2
@@ -21,27 +20,26 @@ class CNNModelV2(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
         self.model = nn.Sequential(
             nn.Conv2d(
-                128,
-                128,
+                18,
+                64,
                 2
             ),
             nn.ReLU(),
             nn.Conv2d(
-                128,
-                128,
+                64,
+                32,
                 2,
                 padding=1
             ),
             nn.Flatten(),
-            nn.Linear(1536, 512),
+            nn.Linear(384, 128),
             nn.ReLU(),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Linear(256, num_outputs),
         )
+        self.policy_fn = nn.Linear(128, num_outputs)
 
     def forward(self, input_dict, state, seq_lens):
-        return self.model(input_dict["obs"]), state
+        model_out = self.model(input_dict["obs"])
+        return self.policy_fn(model_out), state
 
 class TorchMaskedActions(DQNTorchModel):
     """PyTorch version of above ParametricActionsModel."""
@@ -87,17 +85,15 @@ if __name__ == "__main__":
         env = get_env()
         return env
 
-    env = "animal_shogi"
-    dummy_env = PettingZooEnv(env_creator())
-
+    env = "shogi"
     register_env(env, lambda config: PettingZooEnv(env_creator()))
 
     ModelCatalog.register_custom_model("dqn-CNN", TorchMaskedActions)
 
     tune.run(
-        "DQN",
-        name="abc-shogi",
-        stop={"timesteps_total": 1000000000},
+        "APEX_DQN",
+        name="apex shogi",
+        stop={"timesteps_total": 100000000},
         checkpoint_freq=10,
         config={
             # Enviroment specific
@@ -105,17 +101,9 @@ if __name__ == "__main__":
             "framework": "torch",
             # General
             "num_gpus": 0,
-            "num_workers": 10,
-            "num_envs_per_worker": 3,
-            "create_env_on_driver": False,
-            "rollout_fragment_length": 200,
-            "train_batch_size": 500,
+            "num_workers": 3,
             # Method specific
             "multiagent": {
-                # "policies": {
-                    # "player_0": (None, dummy_env.observation_space, dummy_env.action_space, {}),
-                    # "player_1": (RandomPolicy, dummy_env.observation_space, dummy_env.action_space, {})
-                # },
                 "policies": set(["player_0", "player_1"]),
                 "policy_mapping_fn": (lambda agent_id, episode, **kwargs: agent_id),
             },
@@ -125,14 +113,14 @@ if __name__ == "__main__":
             "model": {
                 "custom_model": "dqn-CNN"
             },
-            # "exploration_config": {
-                # # The Exploration class to use.
-                # "type": "EpsilonGreedy",
-                # # Config for the Exploration class' constructor:
-                # "initial_epsilon": 0.1,
-                # "final_epsilon": 0.0,
-                # "epsilon_timesteps": 100000000,
-            # }
+            "exploration_config": {
+                # The Exploration class to use.
+                "type": "EpsilonGreedy",
+                # Config for the Exploration class' constructor:
+                "initial_epsilon": 0.1,
+                "final_epsilon": 0.0,
+                "epsilon_timesteps": 100000000,
+            }
         },
     )
 
