@@ -8,6 +8,7 @@ from ray.rllib.models import ModelCatalog
 import torch
 from torch import nn
 import torch.nn.functional as F
+from ray.rllib.agents.dqn import APEX_DEFAULT_CONFIG
 
 from ray.rllib.agents.dqn.dqn_torch_model import DQNTorchModel
 from ray.rllib.models.torch.torch_modelv2 import TorchModelV2
@@ -20,27 +21,27 @@ class CNNModelV2(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
         self.model = nn.Sequential(
             nn.Conv2d(
-                18,
-                64,
+                128,
+                128,
                 2
             ),
             nn.ReLU(),
             nn.Conv2d(
-                64,
-                32,
+                128,
+                128,
                 2,
                 padding=1
             ),
             nn.Flatten(),
-            nn.Linear(384, 128),
+            nn.Linear(1536, 512),
             nn.ReLU(),
+            nn.Linear(512, 256),
+            nn.ReLU(),
+            nn.Linear(256, num_outputs),
         )
-        self.policy_fn = nn.Linear(128, num_outputs)
 
     def forward(self, input_dict, state, seq_lens):
-        model_out = self.model(input_dict["obs"])
-        return self.policy_fn(model_out), state
-
+        return self.model(input_dict["obs"]), state
 class TorchMaskedActions(DQNTorchModel):
     """PyTorch version of above ParametricActionsModel."""
 
@@ -90,37 +91,26 @@ if __name__ == "__main__":
 
     ModelCatalog.register_custom_model("dqn-CNN", TorchMaskedActions)
 
+    config = APEX_DEFAULT_CONFIG
+    config["num_gpus"] = 0
+    config["num_workers"] = 10
+    config["multiagent"]  = {
+        "policies": set(["player_0", "player_1"]),
+        "policy_mapping_fn": (lambda agent_id, episode, **kwargs: agent_id),
+    }
+    config["model"] = { "custom_model": "dqn-CNN" }
+    config["env"] = env
+    config["framework"] = "torch"
+    config["dueling"] = False
+    config["double_q"] = False
+    config["hiddens"] = []
+
     tune.run(
-        "APEX_DQN",
+        "APEX",
         name="apex shogi",
         stop={"timesteps_total": 100000000},
-        checkpoint_freq=10,
-        config={
-            # Enviroment specific
-            "env": env,
-            "framework": "torch",
-            # General
-            "num_gpus": 0,
-            "num_workers": 3,
-            # Method specific
-            "multiagent": {
-                "policies": set(["player_0", "player_1"]),
-                "policy_mapping_fn": (lambda agent_id, episode, **kwargs: agent_id),
-            },
-            "dueling": False,
-            "double_q": False,
-            "hiddens": [],
-            "model": {
-                "custom_model": "dqn-CNN"
-            },
-            "exploration_config": {
-                # The Exploration class to use.
-                "type": "EpsilonGreedy",
-                # Config for the Exploration class' constructor:
-                "initial_epsilon": 0.1,
-                "final_epsilon": 0.0,
-                "epsilon_timesteps": 100000000,
-            }
-        },
+        checkpoint_freq=1,
+        config=config,
+        resume=True
     )
 
