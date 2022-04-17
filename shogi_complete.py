@@ -95,7 +95,7 @@ if __name__ == "__main__":
     ModelCatalog.register_custom_model("dqn-CNN", TorchMaskedActions)
 
     tune.run(
-        "DQN",
+        "APEX",
         name="abc-shogi",
         stop={"timesteps_total": 1000000000},
         checkpoint_freq=10,
