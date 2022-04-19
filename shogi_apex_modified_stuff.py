@@ -20,14 +20,15 @@ class CNNModelV2(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
         self.model = nn.Sequential(
             nn.Conv2d(
-                128,
-                128,
-                2
+                18,
+                36,
+                2,
+                padding=1
             ),
             nn.ReLU(),
             nn.Conv2d(
-                128,
-                128,
+                36,
+                36,
                 2,
                 padding=1
             ),
