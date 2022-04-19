@@ -2,7 +2,8 @@ from ray.rllib.agents.registry import get_agent_class
 from ray import tune
 from ray.tune.registry import register_env
 from ray.rllib.env.wrappers.pettingzoo_env import PettingZooEnv
-from shogi.shogi_pettingzoo_env import get_env from gym.spaces import Box
+from shogi_simple.shogi_pettingzoo_env import get_env 
+from gym.spaces import Box
 from ray.rllib.models import ModelCatalog
 import torch
 from torch import nn
@@ -33,7 +34,7 @@ class CNNModelV2(TorchModelV2, nn.Module):
                 padding=1
             ),
             nn.Flatten(),
-            nn.Linear(1536, 512),
+            nn.Linear(1080, 512),
             nn.ReLU(),
             nn.Linear(512, 256),
             nn.ReLU(),
@@ -103,7 +104,7 @@ if __name__ == "__main__":
     config["env"] = env
     config["framework"] = "torch"
     config["dueling"] = False
-    config["double_q"] = False
+    config["double_q"] = True
     config["hiddens"] = []
 
     tune.run(
