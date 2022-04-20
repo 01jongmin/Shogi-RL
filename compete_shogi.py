@@ -122,20 +122,25 @@ def play(observation, player):
         }
         logits, _ = policy.model(batch_obs)
         actions = (torch.clamp(logits[0], 0, 100) > 0).nonzero().flatten()
-        if actions.shape == torch.Size([0]):
+        if actions.shape == torch.Size([0]): # logits are all negative
             actions = (logits[0] > torch.min(logits[0])).nonzero().flatten()
-        prob = torch.softmax(logits[0][actions], dim=0, dtype=torch.float)
-        # batched_action, state_out, info = policy.compute_actions_from_input_dict(batch_obs)
-        # single_action = batched_action[0]
+            idx = np.argmax(actions)
+        else:
+            prob = logits[0][actions] / logits[0][actions].sum()
+            idx = prob.multinomial(num_samples=1)
+        # prob = torch.softmax(logits[0][actions], dim=0, dtype=torch.float)
+        #batched_action, state_out, info = policy.compute_actions_from_input_dict(batch_obs)
+        #single_action = batched_action[0]
         # action = single_action
-        idx = prob.multinomial(num_samples=1)
+        # idx = prob.multinomial(num_samples=1)
         action = int(actions[idx])
-        # print(actions)
-        # print(logits[0][actions])
-        # print(prob)
-        # print(idx)
-        # print(action)
-        # print(single_action)
+        #print(actions)
+        #print(logits[0][actions])
+        #print(prob)
+        #print(prob.sum())
+        #print(idx)
+        #print(action)
+        #print(single_action)
     
     return action
 
