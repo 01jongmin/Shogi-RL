@@ -94,6 +94,9 @@ class Board:
                 else:
                     state[new_row][new_col] = HU_RED
             elif new_row == 0 and state[new_row][new_col].symbol == "WANG":
+                print(agent_idx)
+                print(new_col)
+                #print(self.can_be_captured(new_col, agent_idx))
                 return (not agent_idx) if self.can_be_captured(new_col, agent_idx) else agent_idx
 
         else:
@@ -130,16 +133,26 @@ class Board:
         print("--------------------------------")
         print("")
 
-    def can_be_captured(self, col, agent_idx):
+    def can_be_captured(self, king_col, agent_idx):
+        if king_col == 0:
+            king_col = 2
+        elif king_col == 1:
+            king_col = 1
+        elif king_col == 2:
+            king_col = 0
+
         opponent_state = self.get_perspective_state(not agent_idx)
         col_occupied = set()
+        #print("test")
 
         for row in range(2, 4):
             for col in range(3):
                 if opponent_state[row][col] and opponent_state[row][col].color != agent_idx:
+                    print("* " + str(row) + ", " + str(col))
                     for direction_idx in opponent_state[row][col].directions:
                         direction = DIRECTION[direction_idx]
-                        col_occupied.add(col + direction[1])
+                        print(str(row + direction[0]) + ", " + str(col + direction[1]))
+                        col_occupied.add((row + direction[0], col + direction[1]))
 
-        return col in col_occupied
+        return (3, king_col) in col_occupied
 
