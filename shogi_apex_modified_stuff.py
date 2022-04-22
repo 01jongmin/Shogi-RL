@@ -94,8 +94,7 @@ if __name__ == "__main__":
 
     config = APEX_DEFAULT_CONFIG
     config["num_gpus"] = 0
-    config["num_workers"] = 80
-    config["num_envs_per_worker"] = 16
+    config["num_workers"] = 110
     config["multiagent"]  = {
         "policies": set(["player_0", "player_1"]),
         "policy_mapping_fn": (lambda agent_id, episode, **kwargs: agent_id),
@@ -113,6 +112,6 @@ if __name__ == "__main__":
         stop={"timesteps_total": 100000000},
         checkpoint_freq=1,
         config=config,
-        resume=True
+        resume=False
     )
 

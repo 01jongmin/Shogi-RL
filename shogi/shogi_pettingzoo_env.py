@@ -56,7 +56,7 @@ class raw_env(AECEnv):
 
         self.action_spaces = {i: spaces.Discrete(12 * 8 + 3 * 9) for i in self.agents}
         self.observation_spaces = {i: spaces.Dict({
-                                        'observation': spaces.Box(low=0, high=2, shape=(10 * 12 + 6 + 2, 4, 3), dtype=np.int8),
+                                        'observation': spaces.Box(low=0, high=50, shape=(10 * 12 + 6 + 2, 4, 3), dtype=np.int8),
                                         'action_mask': spaces.Box(low=0, high=1, shape=(12 * 8 + 3 * 9,), dtype=np.int8)
                                   }) for i in self.agents}
 
@@ -81,7 +81,7 @@ class raw_env(AECEnv):
         stack = np.empty((128, 4, 3), dtype=np.int8)
 
         stack[0] = np.full(board_shape, agent_idx)
-        stack[1] = np.ones(board_shape)
+        stack[1] = np.full(board_shape, self.board.move_count)
 
         for i, piece_symbol in enumerate(["JA", "JANG", "SANG"]):
             stack[i + 2] = np.full(board_shape, self.board.prisoners[agent_idx][piece_symbol])

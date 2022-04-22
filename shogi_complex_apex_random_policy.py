@@ -2,7 +2,7 @@ from ray.rllib.agents.registry import get_agent_class
 from ray import tune
 from ray.tune.registry import register_env
 from ray.rllib.env.wrappers.pettingzoo_env import PettingZooEnv
-from shogi_simple.shogi_pettingzoo_env import get_env 
+from shogi.shogi_pettingzoo_env import get_env 
 from gym.spaces import Box
 from ray.rllib.models import ModelCatalog
 import torch
@@ -23,20 +23,20 @@ class CNNModelV2(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
         self.model = nn.Sequential(
             nn.Conv2d(
-                18,
-                36,
+                128,
+                128,
                 2,
                 padding=1
             ),
             nn.ReLU(),
             nn.Conv2d(
-                36,
-                36,
+                128,
+                128,
                 2,
                 padding=1
             ),
             nn.Flatten(),
-            nn.Linear(1080, 512),
+            nn.Linear(3840, 512),
             nn.ReLU(),
             nn.Linear(512, 256),
             nn.ReLU(),
@@ -119,10 +119,10 @@ if __name__ == "__main__":
     tune.run(
         "APEX",
         name="apex shogi",
-        stop={"timesteps_total": 1000000000},
+        stop={"timesteps_total": 100000000},
         checkpoint_freq=1,
         config=config,
         local_dir="../ray-results/",
-        resume=True
+        resume=False
     )
 

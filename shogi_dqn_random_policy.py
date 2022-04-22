@@ -8,7 +8,7 @@ from ray.rllib.models import ModelCatalog
 import torch
 from torch import nn
 import torch.nn.functional as F
-from ray.rllib.agents.dqn import APEX_DEFAULT_CONFIG
+from ray.rllib.agents.dqn import DEFAULT_CONFIG as DQN_DEFAULT_CONFIG
 from ray.rllib.policy.policy import PolicySpec
 from parametric_random_policy import ParametricRandomPolicy
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     ModelCatalog.register_custom_model("dqn-CNN", TorchMaskedActions)
 
-    config = APEX_DEFAULT_CONFIG
+    config = DQN_DEFAULT_CONFIG
     config["num_gpus"] = 0
     config["num_workers"] = 110
     config["multiagent"]  = {
@@ -117,12 +117,12 @@ if __name__ == "__main__":
     config["hiddens"] = []
 
     tune.run(
-        "APEX",
-        name="apex shogi",
+        "DQN",
+        name="dqn shogi",
         stop={"timesteps_total": 1000000000},
         checkpoint_freq=1,
         config=config,
         local_dir="../ray-results/",
-        resume=True
+        resume=False
     )
 

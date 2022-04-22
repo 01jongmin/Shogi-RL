@@ -1,16 +1,15 @@
+import ray
 from ray.rllib.agents.registry import get_agent_class
 from ray import tune
 from ray.tune.registry import register_env
 from ray.rllib.env.wrappers.pettingzoo_env import PettingZooEnv
-from shogi_simple.shogi_pettingzoo_env import get_env 
+from shogi.shogi_pettingzoo_env import get_env 
 from gym.spaces import Box
 from ray.rllib.models import ModelCatalog
 import torch
 from torch import nn
 import torch.nn.functional as F
 from ray.rllib.agents.dqn import APEX_DEFAULT_CONFIG
-from ray.rllib.policy.policy import PolicySpec
-from parametric_random_policy import ParametricRandomPolicy
 
 from ray.rllib.agents.dqn.dqn_torch_model import DQNTorchModel
 from ray.rllib.models.torch.torch_modelv2 import TorchModelV2
@@ -23,20 +22,20 @@ class CNNModelV2(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
         self.model = nn.Sequential(
             nn.Conv2d(
-                18,
-                36,
+                128,
+                128,
                 2,
                 padding=1
             ),
             nn.ReLU(),
             nn.Conv2d(
-                36,
-                36,
+                128,
+                128,
                 2,
                 padding=1
             ),
             nn.Flatten(),
-            nn.Linear(1080, 512),
+            nn.Linear(3840, 512),
             nn.ReLU(),
             nn.Linear(512, 256),
             nn.ReLU(),
@@ -95,19 +94,15 @@ if __name__ == "__main__":
 
     ModelCatalog.register_custom_model("dqn-CNN", TorchMaskedActions)
 
+    # Max memory to be set to 90GB
+    ray.init(object_store_memory=10**9)
+
     config = APEX_DEFAULT_CONFIG
     config["num_gpus"] = 0
     config["num_workers"] = 110
     config["multiagent"]  = {
-        "policies": {
-            "player_0": PolicySpec(policy_class=None,  # infer automatically from Trainer
-                                   observation_space=None,  # infer automatically from env
-                                   action_space=None,  # infer automatically from env,  # <- use default class & infer obs-/act-spaces from env.
-                                   ),
-            "player_1": PolicySpec(policy_class=ParametricRandomPolicy),  # infer obs-/act-spaces from env.
-        },
+        "policies": set(["player_0", "player_1"]),
         "policy_mapping_fn": (lambda agent_id, episode, **kwargs: agent_id),
-        "policies_to_train": ["player_0"],
     }
     config["model"] = { "custom_model": "dqn-CNN" }
     config["env"] = env
@@ -119,10 +114,9 @@ if __name__ == "__main__":
     tune.run(
         "APEX",
         name="apex shogi",
-        stop={"timesteps_total": 1000000000},
+        stop={"timesteps_total": 100000000},
         checkpoint_freq=1,
         config=config,
-        local_dir="../ray-results/",
-        resume=True
+        resume=False
     )
 

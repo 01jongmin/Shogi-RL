@@ -130,7 +130,14 @@ class Board:
         print("--------------------------------")
         print("")
 
-    def can_be_captured(self, col, agent_idx):
+    def can_be_captured(self, king_col, agent_idx):
+        if king_col == 0:
+            king_col = 2
+        elif king_col == 1:
+            king_col = 1
+        elif king_col == 2:
+            king_col = 0
+
         opponent_state = self.get_perspective_state(not agent_idx)
         col_occupied = set()
 
@@ -139,7 +146,7 @@ class Board:
                 if opponent_state[row][col] and opponent_state[row][col].color != agent_idx:
                     for direction_idx in opponent_state[row][col].directions:
                         direction = DIRECTION[direction_idx]
-                        col_occupied.add(col + direction[1])
+                        col_occupied.add((row + direction[0], col + direction[1]))
 
-        return col in col_occupied
+        return (3, king_col) in col_occupied
 
