@@ -1,0 +1,1402 @@
+== Status ==
+Current time: 2022-04-24 20:06:26 (running for 00:00:04.84)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+
+| Trial name            | status   | loc             |
+|-----------------------+----------+-----------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |
++-----------------------+----------+-----------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+== Status ==
+Current time: 2022-04-24 20:06:27 (running for 00:00:05.85)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+
+| Trial name            | status   | loc             |
+|-----------------------+----------+-----------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |
++-----------------------+----------+-----------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-28
+  done: false
+  episode_len_mean: 11.1
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 90
+  episodes_total: 90
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 1000
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.1478799283504486
+          max_q: 0.08304208517074585
+          mean_q: 0.008117655292153358
+          min_q: -0.06720059365034103
+        mean_td_error: -0.10849534720182419
+        model: {}
+        td_error:
+        - -0.09611721336841583
+        - -0.03844423592090607
+        - -0.09764009714126587
+        - 0.012487296015024185
+        - 0.05036965012550354
+        - -1.0293490886688232
+        - 0.0048517510294914246
+        - -0.04730338603258133
+        - -0.046653635799884796
+        - -0.08533988147974014
+        - -0.01018715649843216
+        - 0.0037466716021299362
+        - -0.01018715649843216
+        - -0.1396685540676117
+        - -0.09764009714126587
+        - -0.012898467481136322
+        - -0.0993526354432106
+        - -0.09639552235603333
+        - -0.15907317399978638
+        - -0.0025185905396938324
+        - -0.07721574604511261
+        - -0.060654737055301666
+        - 1.0723077058792114
+        - -0.10535390675067902
+        - -0.09883689135313034
+        - -0.07767336815595627
+        - 0.03938234969973564
+        - -0.02570299804210663
+        - -1.0407507419586182
+        - -1.0276908874511719
+        - -0.12513840198516846
+        - 0.05279026925563812
+    num_agent_steps_sampled: 999
+    num_agent_steps_trained: 64
+    num_steps_sampled: 1000
+    num_steps_trained: 32
+    num_steps_trained_this_iter: 32
+    num_target_updates: 1
+  iterations_since_restore: 1
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 20.233333333333334
+    ram_util_percent: 60.79999999999999
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.1111111111111111
+    player_1: -0.1111111111111111
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.048429696829049865
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.3875326086114813
+    mean_inference_ms: 0.6823430170903314
+    mean_raw_obs_processing_ms: 0.23631449345942146
+  time_since_restore: 1.570378065109253
+  time_this_iter_s: 1.570378065109253
+  time_total_s: 1.570378065109253
+  timers:
+    learn_throughput: 1631.727
+    learn_time_ms: 19.611
+  timestamp: 1650845188
+  timesteps_since_restore: 32
+  timesteps_this_iter: 32
+  timesteps_total: 1000
+  training_iteration: 1
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+== Status ==
+Current time: 2022-04-24 20:06:33 (running for 00:00:11.53)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      1 |          1.57038 | 1000 |        0 |                    0 |                    0 |               11.1 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 1999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-34
+  done: false
+  episode_len_mean: 10.85
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 93
+  episodes_total: 183
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 1504
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.023615548387169838
+          max_q: 0.40236014127731323
+          mean_q: 0.08327073603868484
+          min_q: -0.704165518283844
+        mean_td_error: -0.06303707510232925
+        model: {}
+        td_error:
+        - -0.6125286817550659
+        - 0.06322434544563293
+        - -1.0184615850448608
+        - -0.2440122663974762
+        - -0.4643133878707886
+        - 0.48107537627220154
+        - -0.7904189825057983
+        - 1.0093735456466675
+        - -1.156501054763794
+        - 1.3093626499176025
+        - 0.45014214515686035
+        - -0.7574193477630615
+        - -0.747170090675354
+        - 0.9893632531166077
+        - 0.887646496295929
+        - -0.6567021012306213
+        - 0.8717529773712158
+        - 0.7765723466873169
+        - 0.2239978015422821
+        - -0.9159752130508423
+        - 0.23409442603588104
+        - -0.19682595133781433
+        - 0.13201260566711426
+        - 0.02609632909297943
+        - -0.2251129448413849
+        - -0.8085453510284424
+        - -0.218377485871315
+        - -0.24091508984565735
+        - 0.05491925776004791
+        - -0.05496160686016083
+        - 0.1498049646615982
+        - -0.5683838129043579
+    num_agent_steps_sampled: 1999
+    num_agent_steps_trained: 16064
+    num_steps_sampled: 2000
+    num_steps_trained: 8032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 2
+  iterations_since_restore: 2
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 15.3125
+    ram_util_percent: 61.0
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: -0.06
+    player_1: 0.06
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.049322611922090726
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.39540055510999805
+    mean_inference_ms: 0.6715913027678988
+    mean_raw_obs_processing_ms: 0.24058354940636498
+  time_since_restore: 7.63092303276062
+  time_this_iter_s: 6.060544967651367
+  time_total_s: 7.63092303276062
+  timers:
+    learn_throughput: 2472.009
+    learn_time_ms: 12.945
+  timestamp: 1650845194
+  timesteps_since_restore: 64
+  timesteps_this_iter: 32
+  timesteps_total: 2000
+  training_iteration: 2
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+== Status ==
+Current time: 2022-04-24 20:06:38 (running for 00:00:16.60)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      2 |          7.63092 | 2000 |        0 |                    0 |                    0 |              10.85 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 2999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-40
+  done: false
+  episode_len_mean: 10.2
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 99
+  episodes_total: 282
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 2512
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.034856848418712616
+          max_q: 0.7664483785629272
+          mean_q: 0.10266303271055222
+          min_q: -0.7643133997917175
+        mean_td_error: -0.12241547554731369
+        model: {}
+        td_error:
+        - 0.23568660020828247
+        - -0.3562399744987488
+        - -0.17198139429092407
+        - 0.8187304735183716
+        - -0.3562399744987488
+        - -0.7240414023399353
+        - 0.8964223265647888
+        - -0.29234424233436584
+        - -0.3242102265357971
+        - -0.030938804149627686
+        - -0.9418424367904663
+        - -0.1748342216014862
+        - 0.3398216962814331
+        - 0.07724010944366455
+        - -0.09939742088317871
+        - -0.04088711738586426
+        - -0.17198139429092407
+        - -0.2558765411376953
+        - -0.8350991010665894
+        - -0.027246683835983276
+        - -0.1931116133928299
+        - 0.6635645031929016
+        - -0.058270007371902466
+        - 0.8073168992996216
+        - -0.36546483635902405
+        - -0.4281134605407715
+        - -0.5055253505706787
+        - -0.27578675746917725
+        - -0.7008161544799805
+        - 0.20592503249645233
+        - -0.001996159553527832
+        - -0.6297574043273926
+    num_agent_steps_sampled: 2999
+    num_agent_steps_trained: 32064
+    num_steps_sampled: 3000
+    num_steps_trained: 16032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 4
+  iterations_since_restore: 3
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 11.433333333333332
+    ram_util_percent: 61.0
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.08
+    player_1: -0.08
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.04939509639501571
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.3975866437895608
+    mean_inference_ms: 0.6605128650609001
+    mean_raw_obs_processing_ms: 0.24418117783607218
+  time_since_restore: 13.53090214729309
+  time_this_iter_s: 5.899979114532471
+  time_total_s: 13.53090214729309
+  timers:
+    learn_throughput: 2555.944
+    learn_time_ms: 12.52
+  timestamp: 1650845200
+  timesteps_since_restore: 96
+  timesteps_this_iter: 32
+  timesteps_total: 3000
+  training_iteration: 3
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+== Status ==
+Current time: 2022-04-24 20:06:44 (running for 00:00:22.60)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      3 |          13.5309 | 3000 |        0 |                    0 |                    0 |               10.2 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 3999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-46
+  done: false
+  episode_len_mean: 10.83
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 91
+  episodes_total: 373
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 3520
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.07560133934020996
+          max_q: 1.3134245872497559
+          mean_q: 0.20204292237758636
+          min_q: -1.5996065139770508
+        mean_td_error: -0.07914283871650696
+        model: {}
+        td_error:
+        - 0.04854917526245117
+        - 0.10099075734615326
+        - -0.6213576197624207
+        - -0.8201947808265686
+        - -0.14337164163589478
+        - 0.08755064010620117
+        - -0.44605377316474915
+        - 0.7897010445594788
+        - -0.47049832344055176
+        - 1.1562588214874268
+        - -0.2070237398147583
+        - -0.49356427788734436
+        - -0.3602794110774994
+        - 0.20008587837219238
+        - 0.19039802253246307
+        - -0.7409318685531616
+        - 0.7828350067138672
+        - -0.3457666039466858
+        - 0.06879407167434692
+        - 0.5522632598876953
+        - 0.25862646102905273
+        - 0.49848562479019165
+        - -1.2447195053100586
+        - -0.1542348861694336
+        - -0.5925250053405762
+        - -0.48656511306762695
+        - -0.78578782081604
+        - 0.5166839361190796
+        - 0.7209886312484741
+        - -0.5996065139770508
+        - 0.0239173024892807
+        - -0.016218557953834534
+    num_agent_steps_sampled: 3999
+    num_agent_steps_trained: 48064
+    num_steps_sampled: 4000
+    num_steps_trained: 24032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 6
+  iterations_since_restore: 4
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 10.975
+    ram_util_percent: 61.0
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.28
+    player_1: -0.28
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.049397032766322076
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.39812864586262775
+    mean_inference_ms: 0.6587548061240447
+    mean_raw_obs_processing_ms: 0.243018741980286
+  time_since_restore: 19.435060024261475
+  time_this_iter_s: 5.904157876968384
+  time_total_s: 19.435060024261475
+  timers:
+    learn_throughput: 2450.628
+    learn_time_ms: 13.058
+  timestamp: 1650845206
+  timesteps_since_restore: 128
+  timesteps_this_iter: 32
+  timesteps_total: 4000
+  training_iteration: 4
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+== Status ==
+Current time: 2022-04-24 20:06:50 (running for 00:00:28.52)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      4 |          19.4351 | 4000 |        0 |                    0 |                    0 |              10.83 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 4999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-52
+  done: false
+  episode_len_mean: 9.572815533980583
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 103
+  episodes_total: 476
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 4528
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.029505249112844467
+          max_q: 1.5964120626449585
+          mean_q: 0.5989006161689758
+          min_q: -0.7165506482124329
+        mean_td_error: 0.10424041002988815
+        model: {}
+        td_error:
+        - 0.03462362289428711
+        - -0.057973265647888184
+        - -0.10416501760482788
+        - 0.10616731643676758
+        - -0.057973265647888184
+        - -0.5539467334747314
+        - 1.219581961631775
+        - -0.023445487022399902
+        - -0.2609935998916626
+        - 0.1253167986869812
+        - 0.28518587350845337
+        - -0.11962592601776123
+        - 0.7561694383621216
+        - 0.4255814552307129
+        - 0.18558549880981445
+        - 0.1253167986869812
+        - 0.08874014019966125
+        - -0.22271978855133057
+        - 0.5355421900749207
+        - -1.5572795867919922
+        - 0.23774904012680054
+        - -0.133217453956604
+        - -0.7479464411735535
+        - -0.46314936876296997
+        - 0.5987114906311035
+        - 0.443736732006073
+        - 1.2773405313491821
+        - 0.28344935178756714
+        - 0.056528568267822266
+        - 0.4255814552307129
+        - 0.7102815508842468
+        - -0.28306084871292114
+    num_agent_steps_sampled: 4999
+    num_agent_steps_trained: 64064
+    num_steps_sampled: 5000
+    num_steps_trained: 32032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 8
+  iterations_since_restore: 5
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 10.366666666666667
+    ram_util_percent: 61.0
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.24271844660194175
+    player_1: -0.24271844660194175
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.04932261114000347
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.39895771265363605
+    mean_inference_ms: 0.6536242247247568
+    mean_raw_obs_processing_ms: 0.24456325661442416
+  time_since_restore: 25.39563512802124
+  time_this_iter_s: 5.960575103759766
+  time_total_s: 25.39563512802124
+  timers:
+    learn_throughput: 2465.552
+    learn_time_ms: 12.979
+  timestamp: 1650845212
+  timesteps_since_restore: 160
+  timesteps_this_iter: 32
+  timesteps_total: 5000
+  training_iteration: 5
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+== Status ==
+Current time: 2022-04-24 20:06:55 (running for 00:00:33.58)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      5 |          25.3956 | 5000 |        0 |                    0 |                    0 |            9.57282 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 5999
+  custom_metrics: {}
+  date: 2022-04-24_20-06-58
+  done: false
+  episode_len_mean: 11.57
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 77
+  episodes_total: 553
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 5536
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.0732172429561615
+          max_q: 1.3053251504898071
+          mean_q: 0.6452674269676208
+          min_q: -0.6702876091003418
+        mean_td_error: 0.0018400363624095917
+        model: {}
+        td_error:
+        - -0.05729019641876221
+        - 0.2747735381126404
+        - 0.3129727244377136
+        - -0.206304669380188
+        - -0.26416099071502686
+        - -0.153445303440094
+        - -0.050288617610931396
+        - -0.019505023956298828
+        - -0.9583665728569031
+        - -0.1372765302658081
+        - -1.8142263889312744
+        - -0.4988923668861389
+        - -0.26416099071502686
+        - -0.8651604652404785
+        - -0.045473337173461914
+        - 0.11976158618927002
+        - -0.4084446132183075
+        - 0.43911421298980713
+        - -0.25534486770629883
+        - -1.0051652193069458
+        - 1.4275126457214355
+        - -0.8523213863372803
+        - 0.3297123908996582
+        - 0.5501896142959595
+        - 0.48571163415908813
+        - 2.030245780944824
+        - -0.1481541395187378
+        - 1.704482078552246
+        - 1.300604224205017
+        - -0.27060920000076294
+        - -0.6057489514350891
+        - -0.03585958480834961
+    num_agent_steps_sampled: 5999
+    num_agent_steps_trained: 80064
+    num_steps_sampled: 6000
+    num_steps_trained: 40032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 10
+  iterations_since_restore: 6
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 11.1375
+    ram_util_percent: 61.0
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.32
+    player_1: -0.32
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.04934338230486976
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.39843468418572753
+    mean_inference_ms: 0.6509696478232563
+    mean_raw_obs_processing_ms: 0.24262012783231982
+  time_since_restore: 31.325744152069092
+  time_this_iter_s: 5.930109024047852
+  time_total_s: 31.325744152069092
+  timers:
+    learn_throughput: 2519.395
+    learn_time_ms: 12.701
+  timestamp: 1650845218
+  timesteps_since_restore: 192
+  timesteps_this_iter: 32
+  timesteps_total: 6000
+  training_iteration: 6
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+== Status ==
+Current time: 2022-04-24 20:07:01 (running for 00:00:39.52)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 RUNNING)
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status   | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | RUNNING  | 127.0.0.1:17899 |      6 |          31.3257 | 6000 |        0 |                    0 |                    0 |              11.57 |
++-----------------------+----------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+Result for DQN_shogi_89e50_00000:
+  agent_timesteps_total: 6999
+  custom_metrics: {}
+  date: 2022-04-24_20-07-04
+  done: true
+  episode_len_mean: 12.46
+  episode_media: {}
+  episode_reward_max: 0.0
+  episode_reward_mean: 0.0
+  episode_reward_min: 0.0
+  episodes_this_iter: 81
+  episodes_total: 634
+  experiment_id: 1ab6e9220bc4466f9440eb72d5732c15
+  hostname: CHOI-Jongmin-SMBP-3324
+  info:
+    last_target_update_ts: 6544
+    learner:
+      player_0:
+        custom_metrics: {}
+        learner_stats:
+          allreduce_latency: 0.0
+          cur_lr: 0.0005
+          grad_gnorm: 0.04547591507434845
+          max_q: 1.6397281885147095
+          mean_q: 0.7671809792518616
+          min_q: -0.8046743273735046
+        mean_td_error: 0.13226908445358276
+        model: {}
+        td_error:
+        - 1.5165975093841553
+        - -0.1104668378829956
+        - 0.06747519969940186
+        - -0.20222556591033936
+        - 0.49298322200775146
+        - 0.47830820083618164
+        - 0.19532567262649536
+        - 0.06870543956756592
+        - -0.4422171115875244
+        - 0.11778473854064941
+        - -0.1316678524017334
+        - 0.48852968215942383
+        - -0.18170922994613647
+        - 0.15026986598968506
+        - 0.19875550270080566
+        - 0.16768693923950195
+        - 0.8345617651939392
+        - 0.4400750398635864
+        - -0.2254433035850525
+        - 0.01613008975982666
+        - -0.1255599856376648
+        - -0.3349289894104004
+        - -0.2265857458114624
+        - -0.04498851299285889
+        - -0.03884172439575195
+        - 0.11947762966156006
+        - -0.23627066612243652
+        - 1.5045115947723389
+        - 1.0785329341888428
+        - -1.2064075469970703
+        - -0.17306673526763916
+        - -0.0227205753326416
+    num_agent_steps_sampled: 6999
+    num_agent_steps_trained: 96064
+    num_steps_sampled: 7000
+    num_steps_trained: 48032
+    num_steps_trained_this_iter: 32
+    num_target_updates: 12
+  iterations_since_restore: 7
+  node_ip: 127.0.0.1
+  num_healthy_workers: 0
+  off_policy_estimator: {}
+  perf:
+    cpu_util_percent: 13.766666666666667
+    ram_util_percent: 61.05555555555556
+  pid: 17899
+  policy_reward_max:
+    player_0: 1.0
+    player_1: 1.0
+  policy_reward_mean:
+    player_0: 0.34
+    player_1: -0.34
+  policy_reward_min:
+    player_0: -1.0
+    player_1: -1.0
+  sampler_perf:
+    mean_action_processing_ms: 0.0493959791428731
+    mean_env_render_ms: 0.0
+    mean_env_wait_ms: 0.3984805963849443
+    mean_inference_ms: 0.6502135799164336
+    mean_raw_obs_processing_ms: 0.24156387647137334
+  time_since_restore: 37.396154165267944
+  time_this_iter_s: 6.0704100131988525
+  time_total_s: 37.396154165267944
+  timers:
+    learn_throughput: 2367.887
+    learn_time_ms: 13.514
+  timestamp: 1650845224
+  timesteps_since_restore: 224
+  timesteps_this_iter: 32
+  timesteps_total: 7000
+  training_iteration: 7
+  trial_id: 89e50_00000
+  
+[2m[36m(DQNTrainer pid=17899)[0m abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc
+== Status ==
+Current time: 2022-04-24 20:07:04 (running for 00:00:42.69)
+Memory usage on this node: 19.5/32.0 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 0/16 CPUs, 0/0 GPUs, 0.0/13.61 GiB heap, 0.0/2.0 GiB objects
+Result logdir: /Users/jongmin/Developer/ray-results-dqn/logging
+Number of trials: 1/1 (1 TERMINATED)
++-----------------------+------------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+| Trial name            | status     | loc             |   iter |   total time (s) |   ts |   reward |   episode_reward_max |   episode_reward_min |   episode_len_mean |
+|-----------------------+------------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------|
+| DQN_shogi_89e50_00000 | TERMINATED | 127.0.0.1:17899 |      7 |          37.3962 | 7000 |        0 |                    0 |                    0 |              12.46 |
++-----------------------+------------+-----------------+--------+------------------+------+----------+----------------------+----------------------+--------------------+
+
+
